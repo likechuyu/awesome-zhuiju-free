@@ -32,6 +32,22 @@ function anchorFor(name) {
   return name.toLowerCase().replaceAll(" ", "-");
 }
 
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function replaceMarkedBlock(content, start, end, replacement, trailingNewlines) {
+  const pattern = new RegExp(
+    `${escapeRegExp(start)}[\\s\\S]*?${escapeRegExp(end)}(?:\\r?\\n)*`
+  );
+
+  if (!pattern.test(content)) {
+    throw new Error(`README must contain ${start} and ${end}.`);
+  }
+
+  return content.replace(pattern, `${replacement}${"\n".repeat(trailingNewlines)}`);
+}
+
 function statusDisplay(status) {
   return {
     reachable: "🟢 可&#8288;访问",
@@ -141,11 +157,16 @@ const generated = `${startMarker}
 ${badges}
 </p>
 
-> 精选内容来自 [\`resources/resources.json\`](resources/resources.json)。状态由 GitHub Actions 每日自动检测：\`🟢 可访问\`、\`🟡 访问受限\`、\`🔴 无法访问\`、\`⚪ 未检测\`。检测结果仅代表 GitHub Actions 节点当时的网络情况。
+<details>
+<summary><strong>查看自动检测状态说明</strong></summary>
+
+精选内容来自 [\`resources/resources.json\`](resources/resources.json)。状态由 GitHub Actions 每日自动检测：\`🟢 可访问\`、\`🟡 访问受限\`、\`🔴 无法访问\`、\`⚪ 未检测\`。检测结果仅代表 GitHub Actions 节点当时的网络情况。
 
 自动状态只判断主页是否响应，不替代人工的推荐、风险与体验评价。完整检测结果见 [\`reports/availability.json\`](reports/availability.json)。
 
 检测任务每天北京时间 09:00 左右运行；新增或修改资源后也会自动运行。你也可以在 [Check availability](https://github.com/laoma2053/awesome-zhuiju-free/actions/workflows/check-availability.yml) 页面手动触发。
+
+</details>
 
 ${categories
   .map((category) => categorySection(category, featuredResources, availabilityById))
@@ -153,31 +174,17 @@ ${categories
 ${endMarker}`;
 
 const readme = await readFile(readmePath, "utf8");
-const startIndex = readme.indexOf(startMarker);
-const endIndex = readme.indexOf(endMarker);
-
-if (startIndex === -1 || endIndex === -1 || endIndex < startIndex) {
-  throw new Error(
-    `README must contain ${startMarker} and ${endMarker} around the generated featured section.`
-  );
-}
-
-let updatedReadme =
-  readme.slice(0, startIndex) + generated + readme.slice(endIndex + endMarker.length);
-
-const countStartIndex = updatedReadme.indexOf(countStartMarker);
-const countEndIndex = updatedReadme.indexOf(countEndMarker);
-if (countStartIndex === -1 || countEndIndex === -1 || countEndIndex < countStartIndex) {
-  throw new Error(
-    `README must contain ${countStartMarker} and ${countEndMarker} around the resource count badge.`
-  );
-}
-
-const countBadge = `${countStartMarker}[![Resources](https://img.shields.io/badge/已收录-${resourcesData.resources.length}_个资源-0f766e?style=for-the-badge)](resources/resources.json)${countEndMarker}`;
-updatedReadme =
-  updatedReadme.slice(0, countStartIndex) +
-  countBadge +
-  updatedReadme.slice(countEndIndex + countEndMarker.length);
+const countBadge = `${countStartMarker}
+<a href="resources/resources.json"><img src="https://img.shields.io/badge/已收录-${resourcesData.resources.length}_个资源-0f766e?style=for-the-badge" alt="已收录 ${resourcesData.resources.length} 个资源"></a>
+${countEndMarker}`;
+let updatedReadme = replaceMarkedBlock(readme, startMarker, endMarker, generated, 2);
+updatedReadme = replaceMarkedBlock(
+  updatedReadme,
+  countStartMarker,
+  countEndMarker,
+  countBadge,
+  1
+);
 
 if (updatedReadme !== readme) {
   await writeFile(readmePath, updatedReadme, "utf8");
