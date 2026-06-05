@@ -31,7 +31,7 @@ body:
         - 字幕
         - 播放器
         - 订阅源
-        - 会员优惠
+        - 会员拼团
         - 其他
     validations:
       required: true
@@ -65,4 +65,3 @@ body:
           required: true
         - label: 我已披露与该资源的推广或利益关系。
           required: true
-

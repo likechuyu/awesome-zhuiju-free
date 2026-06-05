@@ -12,7 +12,7 @@
 | `subtitles` | 字幕站、字幕组与字幕工具 |
 | `player` | 播放器与客户端 |
 | `subscription` | IPTV、广播与其他订阅源 |
-| `membership` | 会员优惠与省钱信息 |
+| `membership` | 会员拼团与省钱信息 |
 | `other` | 其他追剧相关资源 |
 
 ## 关键字段
@@ -25,4 +25,3 @@
 - `source`：首次收录来源与日期。
 
 完整限制见 [`schema.json`](schema.json)。每次修改资源后，应同步追加 [`reports/verifications.json`](../reports/verifications.json) 中的验证记录。
-

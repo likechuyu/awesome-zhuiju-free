@@ -40,64 +40,213 @@
   <a href="#字幕资源"><img src="https://img.shields.io/badge/字幕资源-1-d97706?style=flat-square" alt="字幕资源"></a>
   <a href="#播放器"><img src="https://img.shields.io/badge/播放器-1-059669?style=flat-square" alt="播放器"></a>
   <a href="#订阅源"><img src="https://img.shields.io/badge/订阅源-1-db2777?style=flat-square" alt="订阅源"></a>
-  <a href="#会员优惠"><img src="https://img.shields.io/badge/会员优惠-0-64748b?style=flat-square" alt="会员优惠"></a>
+  <a href="#会员拼团"><img src="https://img.shields.io/badge/会员拼团-0-64748b?style=flat-square" alt="会员拼团"></a>
 </p>
 
 > 精选内容来自 [`resources/resources.json`](resources/resources.json)。评分为当前验证结果，不是永久结论。`推荐` 表示整体体验较好；`谨慎` 表示可用，但存在需要特别留意的风险。
 
-### 找片与观看
+### 在线影视
 
-#### 在线影视
-
-| 资源 | 简介 | 多 | 快 | 净 | 稳 | 易 | 状态 | 风险 | 验证 |
-| --- | --- | ---: | ---: | ---: | ---: | ---: | --- | --- | --- |
-| [CCTV 节目官网](https://tv.cctv.com/) | 总台节目与频道观看入口 | 3.5 | 4.5 | 4.0 | 4.8 | 4.2 | 推荐 | 低 | 2026-06-06 |
-| [1905 电影网](https://www.1905.com/vod/) | 正版电影内容与影视资讯 | 3.8 | 4.2 | 3.5 | 4.5 | 4.0 | 推荐 | 低 | 2026-06-06 |
-| [Internet Archive Movies](https://archive.org/details/movies) | 公共领域与用户上传视频资料 | 4.2 | 3.0 | 4.8 | 4.6 | 3.5 | 推荐 | 中 | 2026-06-06 |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="18%">资源</th>
+      <th width="27%">简介</th>
+      <th width="5%">多</th>
+      <th width="5%">快</th>
+      <th width="5%">净</th>
+      <th width="5%">稳</th>
+      <th width="5%">易</th>
+      <th width="8%">状态</th>
+      <th width="7%">风险</th>
+      <th width="15%">验证</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://tv.cctv.com/">CCTV 节目官网</a></td>
+      <td>总台节目与频道观看入口</td>
+      <td align="center">3.5</td>
+      <td align="center">4.5</td>
+      <td align="center">4.0</td>
+      <td align="center">4.8</td>
+      <td align="center">4.2</td>
+      <td align="center">推荐</td>
+      <td align="center">低</td>
+      <td align="center">2026-06-06</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.1905.com/vod/">1905 电影网</a></td>
+      <td>正版电影内容与影视资讯</td>
+      <td align="center">3.8</td>
+      <td align="center">4.2</td>
+      <td align="center">3.5</td>
+      <td align="center">4.5</td>
+      <td align="center">4.0</td>
+      <td align="center">推荐</td>
+      <td align="center">低</td>
+      <td align="center">2026-06-06</td>
+    </tr>
+    <tr>
+      <td><a href="https://archive.org/details/movies">Internet Archive Movies</a></td>
+      <td>公共领域与用户上传视频资料</td>
+      <td align="center">4.2</td>
+      <td align="center">3.0</td>
+      <td align="center">4.8</td>
+      <td align="center">4.6</td>
+      <td align="center">3.5</td>
+      <td align="center">推荐</td>
+      <td align="center">中</td>
+      <td align="center">2026-06-06</td>
+    </tr>
+  </tbody>
+</table>
 
 <p align="right"><a href="#精选资源">返回分类导航</a></p>
 
-### 资源发现
-
-#### 网盘资源搜索
+### 网盘资源搜索
 
 _等待首条通过验证的精选资源。你可以 [推荐一个资源](https://github.com/laoma2053/awesome-zhuiju-free/issues/new?template=resource.yml)。_
 
-#### 磁力与 BT 搜索
+### 磁力与 BT 搜索
 
-| 资源 | 简介 | 多 | 快 | 净 | 稳 | 易 | 状态 | 风险 | 验证 |
-| --- | --- | ---: | ---: | ---: | ---: | ---: | --- | --- | --- |
-| [Academic Torrents](https://academictorrents.com/) | 面向科研数据集的 BitTorrent 分发平台 | 2.8 | 3.5 | 4.8 | 4.2 | 3.2 | 推荐 | 低 | 2026-06-06 |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="18%">资源</th>
+      <th width="27%">简介</th>
+      <th width="5%">多</th>
+      <th width="5%">快</th>
+      <th width="5%">净</th>
+      <th width="5%">稳</th>
+      <th width="5%">易</th>
+      <th width="8%">状态</th>
+      <th width="7%">风险</th>
+      <th width="15%">验证</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://academictorrents.com/">Academic Torrents</a></td>
+      <td>面向科研数据集的 BitTorrent 分发平台</td>
+      <td align="center">2.8</td>
+      <td align="center">3.5</td>
+      <td align="center">4.8</td>
+      <td align="center">4.2</td>
+      <td align="center">3.2</td>
+      <td align="center">推荐</td>
+      <td align="center">低</td>
+      <td align="center">2026-06-06</td>
+    </tr>
+  </tbody>
+</table>
 
 <p align="right"><a href="#精选资源">返回分类导航</a></p>
 
-### 工具与生态
+### 字幕资源
 
-#### 字幕资源
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="18%">资源</th>
+      <th width="27%">简介</th>
+      <th width="5%">多</th>
+      <th width="5%">快</th>
+      <th width="5%">净</th>
+      <th width="5%">稳</th>
+      <th width="5%">易</th>
+      <th width="8%">状态</th>
+      <th width="7%">风险</th>
+      <th width="15%">验证</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://www.opensubtitles.com/zh-CN">OpenSubtitles</a></td>
+      <td>多语言社区字幕搜索与下载</td>
+      <td align="center">4.8</td>
+      <td align="center">3.2</td>
+      <td align="center">2.8</td>
+      <td align="center">4.5</td>
+      <td align="center">3.5</td>
+      <td align="center">谨慎</td>
+      <td align="center">中</td>
+      <td align="center">2026-06-06</td>
+    </tr>
+  </tbody>
+</table>
 
-| 资源 | 简介 | 多 | 快 | 净 | 稳 | 易 | 状态 | 风险 | 验证 |
-| --- | --- | ---: | ---: | ---: | ---: | ---: | --- | --- | --- |
-| [OpenSubtitles](https://www.opensubtitles.com/zh-CN) | 多语言社区字幕搜索与下载 | 4.8 | 3.2 | 2.8 | 4.5 | 3.5 | 谨慎 | 中 | 2026-06-06 |
+### 播放器
 
-#### 播放器
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="18%">资源</th>
+      <th width="27%">简介</th>
+      <th width="5%">多</th>
+      <th width="5%">快</th>
+      <th width="5%">净</th>
+      <th width="5%">稳</th>
+      <th width="5%">易</th>
+      <th width="8%">状态</th>
+      <th width="7%">风险</th>
+      <th width="15%">验证</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://kodi.tv/">Kodi</a></td>
+      <td>开源、跨平台家庭媒体中心</td>
+      <td align="center">4.5</td>
+      <td align="center">4.0</td>
+      <td align="center">5.0</td>
+      <td align="center">4.8</td>
+      <td align="center">3.8</td>
+      <td align="center">推荐</td>
+      <td align="center">低</td>
+      <td align="center">2026-06-06</td>
+    </tr>
+  </tbody>
+</table>
 
-| 资源 | 简介 | 多 | 快 | 净 | 稳 | 易 | 状态 | 风险 | 验证 |
-| --- | --- | ---: | ---: | ---: | ---: | ---: | --- | --- | --- |
-| [Kodi](https://kodi.tv/) | 开源、跨平台家庭媒体中心 | 4.5 | 4.0 | 5.0 | 4.8 | 3.8 | 推荐 | 低 | 2026-06-06 |
+### 订阅源
 
-#### 订阅源
-
-| 资源 | 简介 | 多 | 快 | 净 | 稳 | 易 | 状态 | 风险 | 验证 |
-| --- | --- | ---: | ---: | ---: | ---: | ---: | --- | --- | --- |
-| [IPTV-org](https://github.com/iptv-org/iptv) | 社区维护的公开 IPTV 频道集合 | 4.5 | 3.5 | 5.0 | 4.0 | 3.0 | 谨慎 | 中 | 2026-06-06 |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="18%">资源</th>
+      <th width="27%">简介</th>
+      <th width="5%">多</th>
+      <th width="5%">快</th>
+      <th width="5%">净</th>
+      <th width="5%">稳</th>
+      <th width="5%">易</th>
+      <th width="8%">状态</th>
+      <th width="7%">风险</th>
+      <th width="15%">验证</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/iptv-org/iptv">IPTV-org</a></td>
+      <td>社区维护的公开 IPTV 频道集合</td>
+      <td align="center">4.5</td>
+      <td align="center">3.5</td>
+      <td align="center">5.0</td>
+      <td align="center">4.0</td>
+      <td align="center">3.0</td>
+      <td align="center">谨慎</td>
+      <td align="center">中</td>
+      <td align="center">2026-06-06</td>
+    </tr>
+  </tbody>
+</table>
 
 <p align="right"><a href="#精选资源">返回分类导航</a></p>
 
-### 会员与省钱
+### 会员拼团
 
-#### 会员优惠
-
-_等待首条通过验证的精选资源。仅收录规则透明、风险明确的官方优惠与会员信息。_
+_等待首条通过验证的精选资源。仅收录规则透明、风险明确的会员拼团信息。_
 
 <p align="right"><a href="#精选资源">返回分类导航</a></p>
 
