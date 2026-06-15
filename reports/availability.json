@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-14T05:58:00.116Z",
+  "generated_at": "2026-06-15T06:32:09.428Z",
   "checker": {
     "environment": "github-actions",
     "timeout_ms": 15000,
@@ -15,8 +15,8 @@
       "status": "restricted",
       "http_status": 403,
       "final_url": "https://www.novipnoad.cc/",
-      "response_ms": 749,
-      "checked_at": "2026-06-14T05:57:58.003Z",
+      "response_ms": 483,
+      "checked_at": "2026-06-15T06:32:07.580Z",
       "attempts": 1,
       "error": null
     },
@@ -26,8 +26,8 @@
       "status": "restricted",
       "http_status": 403,
       "final_url": "https://gaze.red/",
-      "response_ms": 623,
-      "checked_at": "2026-06-14T05:57:58.125Z",
+      "response_ms": 428,
+      "checked_at": "2026-06-15T06:32:07.613Z",
       "attempts": 1,
       "error": null
     },
@@ -37,8 +37,8 @@
       "status": "reachable",
       "http_status": 200,
       "final_url": "https://www.sotvla.cc/",
-      "response_ms": 791,
-      "checked_at": "2026-06-14T05:57:58.127Z",
+      "response_ms": 504,
+      "checked_at": "2026-06-15T06:32:07.614Z",
       "attempts": 1,
       "error": null
     },
@@ -48,8 +48,8 @@
       "status": "reachable",
       "http_status": 200,
       "final_url": "https://v.xl01.eu.cc/",
-      "response_ms": 1248,
-      "checked_at": "2026-06-14T05:57:58.128Z",
+      "response_ms": 948,
+      "checked_at": "2026-06-15T06:32:07.615Z",
       "attempts": 1,
       "error": null
     },
@@ -59,8 +59,8 @@
       "status": "restricted",
       "http_status": 403,
       "final_url": "https://www.opensubtitles.com/zh-CN",
-      "response_ms": 121,
-      "checked_at": "2026-06-14T05:57:58.748Z",
+      "response_ms": 75,
+      "checked_at": "2026-06-15T06:32:08.041Z",
       "attempts": 1,
       "error": null
     },
@@ -70,8 +70,8 @@
       "status": "restricted",
       "http_status": 403,
       "final_url": "https://kodi.tv/",
-      "response_ms": 155,
-      "checked_at": "2026-06-14T05:57:58.752Z",
+      "response_ms": 225,
+      "checked_at": "2026-06-15T06:32:08.063Z",
       "attempts": 1,
       "error": null
     },
@@ -81,8 +81,8 @@
       "status": "reachable",
       "http_status": 206,
       "final_url": "https://github.com/iptv-org/iptv",
-      "response_ms": 398,
-      "checked_at": "2026-06-14T05:57:58.869Z",
+      "response_ms": 816,
+      "checked_at": "2026-06-15T06:32:08.116Z",
       "attempts": 1,
       "error": null
     },
@@ -92,8 +92,8 @@
       "status": "reachable",
       "http_status": 200,
       "final_url": "https://academictorrents.com/",
-      "response_ms": 72,
-      "checked_at": "2026-06-14T05:57:58.907Z",
+      "response_ms": 205,
+      "checked_at": "2026-06-15T06:32:08.118Z",
       "attempts": 1,
       "error": null
     },
@@ -103,8 +103,8 @@
       "status": "reachable",
       "http_status": 200,
       "final_url": "https://www.kuake.so/",
-      "response_ms": 967,
-      "checked_at": "2026-06-14T05:57:58.918Z",
+      "response_ms": 916,
+      "checked_at": "2026-06-15T06:32:08.288Z",
       "attempts": 1,
       "error": null
     },
@@ -114,8 +114,8 @@
       "status": "reachable",
       "http_status": 200,
       "final_url": "https://www.kuakeso.net/",
-      "response_ms": 1007,
-      "checked_at": "2026-06-14T05:57:58.979Z",
+      "response_ms": 860,
+      "checked_at": "2026-06-15T06:32:08.323Z",
       "attempts": 1,
       "error": null
     },
@@ -125,8 +125,8 @@
       "status": "reachable",
       "http_status": 200,
       "final_url": "https://www.zhuiju.us/",
-      "response_ms": 849,
-      "checked_at": "2026-06-14T05:57:59.267Z",
+      "response_ms": 649,
+      "checked_at": "2026-06-15T06:32:08.563Z",
       "attempts": 1,
       "error": null
     },
@@ -136,8 +136,8 @@
       "status": "reachable",
       "http_status": 200,
       "final_url": "https://www.gugeso.com/",
-      "response_ms": 687,
-      "checked_at": "2026-06-14T05:57:59.376Z",
+      "response_ms": 496,
+      "checked_at": "2026-06-15T06:32:08.932Z",
       "attempts": 1,
       "error": null
     }
