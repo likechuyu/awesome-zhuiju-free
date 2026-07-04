@@ -204,6 +204,23 @@
       },
       "result": "pending_review",
       "notes": "根据截图信息收录在线影视资源：Auete影视、电影人生、黑夜影院、奈飞工厂、奈菲影视、泥视频、PPnix 和独播库。推荐指数、访问网址和简介按截图填写；注视影视已存在且按要求保持原条目不变；截图中的访问状态不作为本项目状态依据，后续由 GitHub Actions 自动检测可用性。"
+    },
+    {
+      "id": "verify-20260704-online-video-fourth-batch",
+      "resource_ids": [
+        "ddmf",
+        "sorani",
+        "tdgo"
+      ],
+      "checked_at": "2026-07-04",
+      "checked_by": "maintainer",
+      "method": "manual",
+      "environment": {
+        "region": "unspecified",
+        "network": "screenshot submitted"
+      },
+      "result": "pending_review",
+      "notes": "根据截图信息收录在线影视资源：蛋蛋魔法（https://ddmf.net，测评备注：热门热播剧，有福利伦代理片）和青空次元（https://www.sorani.net，测评备注：网友称最全动漫在线看站）；白嫖者联盟与已收录的 tdgo.shop 为同一网址，因此更新原 tdgo 条目的展示名和简介，避免重复收录。截图中的访问状态不作为本项目状态依据，后续由 GitHub Actions 自动检测可用性。"
     }
   ]
 }
