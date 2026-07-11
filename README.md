@@ -15,7 +15,7 @@
 <p align="center">
   <a href="https://zhuiju.me"><img src="https://img.shields.io/badge/网站-zhuiju.me-2563eb?style=for-the-badge" alt="网站 zhuiju.me"></a>
   <!-- resource-count:start -->
-<a href="resources/resources.json"><img src="https://img.shields.io/badge/已收录-70_个资源-0f766e?style=for-the-badge" alt="已收录 70 个资源"></a>
+<a href="resources/resources.json"><img src="https://img.shields.io/badge/已收录-72_个资源-0f766e?style=for-the-badge" alt="已收录 72 个资源"></a>
 <!-- resource-count:end -->
   <a href="https://github.com/laoma2053/awesome-zhuiju-free/actions/workflows/check-availability.yml"><img src="https://img.shields.io/badge/可用性检测-每日执行-f59e0b?style=for-the-badge" alt="可用性检测 每日执行"></a>
 </p>
@@ -47,7 +47,7 @@
 
 <!-- featured-resources:start -->
 <p align="center">
-  <a href="#在线影视"><img src="https://img.shields.io/badge/在线影视-23-2563eb?style=flat-square" alt="在线影视"></a>
+  <a href="#在线影视"><img src="https://img.shields.io/badge/在线影视-25-2563eb?style=flat-square" alt="在线影视"></a>
   <a href="#影视app"><img src="https://img.shields.io/badge/影视APP-3-0f766e?style=flat-square" alt="影视APP"></a>
   <a href="#网盘资源搜索"><img src="https://img.shields.io/badge/网盘搜索-4-64748b?style=flat-square" alt="网盘资源搜索"></a>
   <a href="#磁力-bt"><img src="https://img.shields.io/badge/磁力%26_BT-9-7c3aed?style=flat-square" alt="磁力& BT"></a>
@@ -87,7 +87,7 @@
       <td nowrap><a href="https://ddmf.net" target="_blank" rel="noopener noreferrer">蛋蛋魔法</a></td>
       <td nowrap>国内外热播剧，有福利伦理片（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:ddmf -->🟡&#8288;访问&#8288;受限<!-- /availability:ddmf --></td>
+      <td align="center" nowrap><!-- availability:ddmf -->🔴&#8288;无法&#8288;访问<!-- /availability:ddmf --></td>
       <td align="center" nowrap><!-- availability-date:ddmf -->2026&#8209;07&#8209;12<!-- /availability-date:ddmf --></td>
     </tr>
     <tr>
@@ -101,7 +101,7 @@
       <td nowrap><a href="https://www.appmovie.art" target="_blank" rel="noopener noreferrer">APP影院</a></td>
       <td nowrap>国内外热播剧，纯净无广告</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:appmovie -->🟡&#8288;访问&#8288;受限<!-- /availability:appmovie --></td>
+      <td align="center" nowrap><!-- availability:appmovie -->🟢&#8288;可&#8288;访问<!-- /availability:appmovie --></td>
       <td align="center" nowrap><!-- availability-date:appmovie -->2026&#8209;07&#8209;12<!-- /availability-date:appmovie --></td>
     </tr>
     <tr>
@@ -122,21 +122,21 @@
       <td nowrap><a href="https://darkvod.com" target="_blank" rel="noopener noreferrer">黑夜影院</a></td>
       <td nowrap>综合影视/资源多/无广告</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:darkvod -->🟡&#8288;访问&#8288;受限<!-- /availability:darkvod --></td>
+      <td align="center" nowrap><!-- availability:darkvod -->🔴&#8288;无法&#8288;访问<!-- /availability:darkvod --></td>
       <td align="center" nowrap><!-- availability-date:darkvod -->2026&#8209;07&#8209;12<!-- /availability-date:darkvod --></td>
     </tr>
     <tr>
       <td nowrap><a href="https://www.netflixgc.com" target="_blank" rel="noopener noreferrer">奈飞工厂</a></td>
       <td nowrap>最新美剧，无广告（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:netflixgc -->🟡&#8288;访问&#8288;受限<!-- /availability:netflixgc --></td>
+      <td align="center" nowrap><!-- availability:netflixgc -->🔴&#8288;无法&#8288;访问<!-- /availability:netflixgc --></td>
       <td align="center" nowrap><!-- availability-date:netflixgc -->2026&#8209;07&#8209;12<!-- /availability-date:netflixgc --></td>
     </tr>
     <tr>
       <td nowrap><a href="https://www.nfyingshi.com" target="_blank" rel="noopener noreferrer">奈菲影视</a></td>
       <td nowrap>热门美剧，更新快无广告（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:nfyingshi -->🟢&#8288;可&#8288;访问<!-- /availability:nfyingshi --></td>
+      <td align="center" nowrap><!-- availability:nfyingshi -->🔴&#8288;无法&#8288;访问<!-- /availability:nfyingshi --></td>
       <td align="center" nowrap><!-- availability-date:nfyingshi -->2026&#8209;07&#8209;12<!-- /availability-date:nfyingshi --></td>
     </tr>
     <tr>
@@ -157,21 +157,21 @@
       <td nowrap><a href="https://www.duonaovod.com" target="_blank" rel="noopener noreferrer">多瑙影视</a></td>
       <td nowrap>海外华人在线影院（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:duonao-video -->🟢&#8288;可&#8288;访问<!-- /availability:duonao-video --></td>
+      <td align="center" nowrap><!-- availability:duonao-video -->🟡&#8288;访问&#8288;受限<!-- /availability:duonao-video --></td>
       <td align="center" nowrap><!-- availability-date:duonao-video -->2026&#8209;07&#8209;12<!-- /availability-date:duonao-video --></td>
     </tr>
     <tr>
       <td nowrap><a href="https://www.tdgo.shop" target="_blank" rel="noopener noreferrer">白嫖者联盟</a></td>
       <td nowrap>热门热播剧，无广告速度快（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:tdgo -->🟢&#8288;可&#8288;访问<!-- /availability:tdgo --></td>
+      <td align="center" nowrap><!-- availability:tdgo -->🔴&#8288;无法&#8288;访问<!-- /availability:tdgo --></td>
       <td align="center" nowrap><!-- availability-date:tdgo -->2026&#8209;07&#8209;12<!-- /availability-date:tdgo --></td>
     </tr>
     <tr>
       <td nowrap><a href="https://kuhh4jo.com" target="_blank" rel="noopener noreferrer">爱电影</a></td>
       <td nowrap>最新热门电影/电视剧（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:ai-movie -->🟢&#8288;可&#8288;访问<!-- /availability:ai-movie --></td>
+      <td align="center" nowrap><!-- availability:ai-movie -->🔴&#8288;无法&#8288;访问<!-- /availability:ai-movie --></td>
       <td align="center" nowrap><!-- availability-date:ai-movie -->2026&#8209;07&#8209;12<!-- /availability-date:ai-movie --></td>
     </tr>
     <tr>
@@ -185,22 +185,36 @@
       <td nowrap><a href="https://www.937tv.vip" target="_blank" rel="noopener noreferrer">937影视</a></td>
       <td nowrap>看全网影视剧（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:tv-937 -->🟡&#8288;访问&#8288;受限<!-- /availability:tv-937 --></td>
+      <td align="center" nowrap><!-- availability:tv-937 -->🔴&#8288;无法&#8288;访问<!-- /availability:tv-937 --></td>
       <td align="center" nowrap><!-- availability-date:tv-937 -->2026&#8209;07&#8209;12<!-- /availability-date:tv-937 --></td>
     </tr>
     <tr>
       <td nowrap><a href="https://iyf.tv" target="_blank" rel="noopener noreferrer">爱壹帆</a></td>
       <td nowrap>面向海外华人的影视站（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:iyf -->🟢&#8288;可&#8288;访问<!-- /availability:iyf --></td>
+      <td align="center" nowrap><!-- availability:iyf -->🟡&#8288;访问&#8288;受限<!-- /availability:iyf --></td>
       <td align="center" nowrap><!-- availability-date:iyf -->2026&#8209;07&#8209;12<!-- /availability-date:iyf --></td>
     </tr>
     <tr>
       <td nowrap><a href="https://gaze.red/" target="_blank" rel="noopener noreferrer">注视影视</a></td>
       <td nowrap>国内海外影视剧资源（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:gaze-red -->🟡&#8288;访问&#8288;受限<!-- /availability:gaze-red --></td>
+      <td align="center" nowrap><!-- availability:gaze-red -->🟢&#8288;可&#8288;访问<!-- /availability:gaze-red --></td>
       <td align="center" nowrap><!-- availability-date:gaze-red -->2026&#8209;07&#8209;12<!-- /availability-date:gaze-red --></td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://bubuzhuiju.com" target="_blank" rel="noopener noreferrer">布布追剧</a></td>
+      <td nowrap>速度快，有广告能接受</td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:bubu-zhuiju -->🟢&#8288;可&#8288;访问<!-- /availability:bubu-zhuiju --></td>
+      <td align="center" nowrap><!-- availability-date:bubu-zhuiju -->2026&#8209;07&#8209;12<!-- /availability-date:bubu-zhuiju --></td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://www.ymck.pro" target="_blank" rel="noopener noreferrer">影猫仓库</a></td>
+      <td nowrap>热门影视剧，有广告能接受</td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:yingmao-cangku -->🔴&#8288;无法&#8288;访问<!-- /availability:yingmao-cangku --></td>
+      <td align="center" nowrap><!-- availability-date:yingmao-cangku -->2026&#8209;07&#8209;12<!-- /availability-date:yingmao-cangku --></td>
     </tr>
     <tr>
       <td nowrap><a href="https://www.dbku.tv" target="_blank" rel="noopener noreferrer">独播库</a></td>
@@ -220,28 +234,28 @@
       <td nowrap><a href="https://novipnoad.org/" target="_blank" rel="noopener noreferrer">No影视</a></td>
       <td nowrap>海外影视剧资源聚合站（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:no-video -->🟡&#8288;访问&#8288;受限<!-- /availability:no-video --></td>
+      <td align="center" nowrap><!-- availability:no-video -->🟢&#8288;可&#8288;访问<!-- /availability:no-video --></td>
       <td align="center" nowrap><!-- availability-date:no-video -->2026&#8209;07&#8209;12<!-- /availability-date:no-video --></td>
     </tr>
     <tr>
       <td nowrap><a href="https://www.sotvla.cc/" target="_blank" rel="noopener noreferrer">搜TV啦</a></td>
       <td nowrap>国内海外高清影视剧资源</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:sotvla -->🟢&#8288;可&#8288;访问<!-- /availability:sotvla --></td>
+      <td align="center" nowrap><!-- availability:sotvla -->🔴&#8288;无法&#8288;访问<!-- /availability:sotvla --></td>
       <td align="center" nowrap><!-- availability-date:sotvla -->2026&#8209;07&#8209;12<!-- /availability-date:sotvla --></td>
     </tr>
     <tr>
       <td nowrap><a href="https://xlys.me/" target="_blank" rel="noopener noreferrer">雪落影视</a></td>
       <td nowrap>国内海外影视剧资源（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:xlys -->🟢&#8288;可&#8288;访问<!-- /availability:xlys --></td>
+      <td align="center" nowrap><!-- availability:xlys -->🔴&#8288;无法&#8288;访问<!-- /availability:xlys --></td>
       <td align="center" nowrap><!-- availability-date:xlys -->2026&#8209;07&#8209;12<!-- /availability-date:xlys --></td>
     </tr>
     <tr>
       <td nowrap><a href="https://www.czzymovie.com" target="_blank" rel="noopener noreferrer">厂长资源</a></td>
       <td nowrap>高清、秒播不卡顿，有广告</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:czzymovie -->🟡&#8288;访问&#8288;受限<!-- /availability:czzymovie --></td>
+      <td align="center" nowrap><!-- availability:czzymovie -->🟢&#8288;可&#8288;访问<!-- /availability:czzymovie --></td>
       <td align="center" nowrap><!-- availability-date:czzymovie -->2026&#8209;07&#8209;12<!-- /availability-date:czzymovie --></td>
     </tr>
   </tbody>
@@ -365,14 +379,14 @@
       <td nowrap><a href="https://clg56.top" target="_blank" rel="noopener noreferrer">磁力狗</a></td>
       <td nowrap>干净好用的磁力资源搜索</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:ciligou -->🟢&#8288;可&#8288;访问<!-- /availability:ciligou --></td>
+      <td align="center" nowrap><!-- availability:ciligou -->🔴&#8288;无法&#8288;访问<!-- /availability:ciligou --></td>
       <td align="center" nowrap><!-- availability-date:ciligou -->2026&#8209;07&#8209;12<!-- /availability-date:ciligou --></td>
     </tr>
     <tr>
       <td nowrap><a href="https://www.btbtla.com" target="_blank" rel="noopener noreferrer">BT影视</a></td>
       <td nowrap>4k高清电影BT下载</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:bt-yingshi -->🟢&#8288;可&#8288;访问<!-- /availability:bt-yingshi --></td>
+      <td align="center" nowrap><!-- availability:bt-yingshi -->🔴&#8288;无法&#8288;访问<!-- /availability:bt-yingshi --></td>
       <td align="center" nowrap><!-- availability-date:bt-yingshi -->2026&#8209;07&#8209;12<!-- /availability-date:bt-yingshi --></td>
     </tr>
     <tr>
@@ -386,7 +400,7 @@
       <td nowrap><a href="https://www.cilixiong.org" target="_blank" rel="noopener noreferrer">磁力熊</a></td>
       <td nowrap>无删减、无广告</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:cilixiong -->🟢&#8288;可&#8288;访问<!-- /availability:cilixiong --></td>
+      <td align="center" nowrap><!-- availability:cilixiong -->🔴&#8288;无法&#8288;访问<!-- /availability:cilixiong --></td>
       <td align="center" nowrap><!-- availability-date:cilixiong -->2026&#8209;07&#8209;12<!-- /availability-date:cilixiong --></td>
     </tr>
     <tr>
@@ -400,7 +414,7 @@
       <td nowrap><a href="https://www.mp4ba.vip" target="_blank" rel="noopener noreferrer">高清MP4</a></td>
       <td nowrap>免费1080电影4K电影</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:gaoqing-mp4 -->🟡&#8288;访问&#8288;受限<!-- /availability:gaoqing-mp4 --></td>
+      <td align="center" nowrap><!-- availability:gaoqing-mp4 -->🟢&#8288;可&#8288;访问<!-- /availability:gaoqing-mp4 --></td>
       <td align="center" nowrap><!-- availability-date:gaoqing-mp4 -->2026&#8209;07&#8209;12<!-- /availability-date:gaoqing-mp4 --></td>
     </tr>
     <tr>
@@ -439,14 +453,14 @@
       <td nowrap><a href="https://assrt.net" target="_blank" rel="noopener noreferrer">射手网(伪)</a></td>
       <td nowrap>字幕下载</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:assrt -->🟢&#8288;可&#8288;访问<!-- /availability:assrt --></td>
+      <td align="center" nowrap><!-- availability:assrt -->🔴&#8288;无法&#8288;访问<!-- /availability:assrt --></td>
       <td align="center" nowrap><!-- availability-date:assrt -->2026&#8209;07&#8209;12<!-- /availability-date:assrt --></td>
     </tr>
     <tr>
       <td nowrap><a href="https://subhd.tv" target="_blank" rel="noopener noreferrer">SubHD</a></td>
       <td nowrap>分享下载字幕平台</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:subhd -->🟡&#8288;访问&#8288;受限<!-- /availability:subhd --></td>
+      <td align="center" nowrap><!-- availability:subhd -->🔴&#8288;无法&#8288;访问<!-- /availability:subhd --></td>
       <td align="center" nowrap><!-- availability-date:subhd -->2026&#8209;07&#8209;12<!-- /availability-date:subhd --></td>
     </tr>
   </tbody>
@@ -503,7 +517,7 @@
       <td nowrap><a href="https://github.com/iptv-org/iptv" target="_blank" rel="noopener noreferrer">IPTV-org</a></td>
       <td nowrap>社区维护的公开 IPTV 频道集合</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:iptv-org -->🟢&#8288;可&#8288;访问<!-- /availability:iptv-org --></td>
+      <td align="center" nowrap><!-- availability:iptv-org -->🔴&#8288;无法&#8288;访问<!-- /availability:iptv-org --></td>
       <td align="center" nowrap><!-- availability-date:iptv-org -->2026&#8209;07&#8209;12<!-- /availability-date:iptv-org --></td>
     </tr>
   </tbody>

@@ -1019,6 +1019,94 @@
       "featured": true
     },
     {
+      "id": "bubu-zhuiju",
+      "name": "布布追剧",
+      "url": "https://bubuzhuiju.com",
+      "category": "online_video",
+      "summary": "速度快，有广告能接受。",
+      "summary_short": "速度快，有广告能接受",
+      "tags": [
+        "在线影视",
+        "追剧",
+        "有广告"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-12",
+        "method": "manual",
+        "notes": "根据用户补充收录：推荐指数 4 星，简介为速度快，有广告能接受；提交状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-12"
+      },
+      "featured": true
+    },
+    {
+      "id": "yingmao-cangku",
+      "name": "影猫仓库",
+      "url": "https://www.ymck.pro",
+      "category": "online_video",
+      "summary": "热门影视剧，有广告能接受。",
+      "summary_short": "热门影视剧，有广告能接受",
+      "tags": [
+        "在线影视",
+        "热门影视",
+        "有广告"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-12",
+        "method": "manual",
+        "notes": "根据用户补充收录：推荐指数 4 星，简介为热门影视剧，有广告能接受；提交状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-12"
+      },
+      "featured": true
+    },
+    {
       "id": "animeko-app",
       "name": "Animeko",
       "url": "https://animeko.org/downloads/",
