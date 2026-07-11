@@ -285,6 +285,17 @@
       "error": null
     },
     {
+      "resource_id": "kazumi",
+      "url": "https://kazumi.app/download",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://kazumi.app/download",
+      "response_ms": 5200,
+      "checked_at": "2026-07-11T03:51:48.249Z",
+      "attempts": 1,
+      "error": null
+    },
+    {
       "resource_id": "zimuku",
       "url": "https://zimuku.org",
       "status": "unreachable",
