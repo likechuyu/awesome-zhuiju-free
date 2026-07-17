@@ -7,7 +7,8 @@
 <p>
   <strong>收录范围</strong><br>
   🎬 在线影视 · 影视APP · 网盘搜索<br>
-  📦 磁力BT/字幕 · TVBox/影视仓接口
+  📦 磁力BT/字幕 · TVBox/影视仓软件<br>
+  🔌 TVBox/影视仓接口 · IPTV订阅源
 </p>
 
 <p><sub>━━━━━━━━━━━━━━━━━━━━</sub></p>
