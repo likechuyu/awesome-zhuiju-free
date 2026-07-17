@@ -122,6 +122,26 @@ function plainDateInTimeZone(timestamp) {
   return dateInTimeZone(timestamp).replaceAll("&#8209;", "-");
 }
 
+function latestAvailabilityTimestamp(availabilityData) {
+  if (availabilityData.generated_at && !Number.isNaN(Date.parse(availabilityData.generated_at))) {
+    return availabilityData.generated_at;
+  }
+
+  const timestamps = availabilityData.results
+    .map((result) => Date.parse(result.checked_at ?? ""))
+    .filter((timestamp) => !Number.isNaN(timestamp));
+
+  if (timestamps.length === 0) {
+    return null;
+  }
+
+  return new Date(Math.max(...timestamps)).toISOString();
+}
+
+function badgePathDate(date) {
+  return date.replaceAll("-", "--");
+}
+
 function shortSummary(resource) {
   return String(resource.summary_short ?? resource.summary).replace(/[。.!！]$/, "");
 }
@@ -343,8 +363,9 @@ ${categories
 ${endMarker}`;
 
 const readme = await readFile(readmePath, "utf8");
+const availabilityDate = plainDateInTimeZone(latestAvailabilityTimestamp(availabilityData));
 const countBadge = `${countStartMarker}
-<a href="resources/resources.json"><img src="https://img.shields.io/badge/已收录-${resourcesData.resources.length}_个资源-0f766e?style=for-the-badge" alt="已收录 ${resourcesData.resources.length} 个资源" height="20"></a>
+<a href="resources/resources.json"><img src="https://img.shields.io/badge/已收录-${resourcesData.resources.length}_个资源-00A98F?style=flat-square&logo=databricks&logoColor=white" alt="已收录 ${resourcesData.resources.length} 个资源" height="24"></a>
 ${countEndMarker}`;
 let updatedReadme = replaceMarkedBlock(readme, startMarker, endMarker, generated, 2);
 updatedReadme = replaceMarkedBlock(
@@ -356,13 +377,14 @@ updatedReadme = replaceMarkedBlock(
 );
 
 const headerBadgesPattern =
-  /(?:\[!\[Website\]\(https:\/\/img\.shields\.io\/badge\/网站-zhuiju\.me-2563eb\?style=for-the-badge\)\]\(https:\/\/zhuiju\.me\)\r?\n<!-- resource-count:start -->[\s\S]*?<!-- resource-count:end -->\r?\n\[!\[Daily Check\]\(https:\/\/img\.shields\.io\/badge\/可用性检测-每日执行-f59e0b\?style=for-the-badge\)\]\(https:\/\/github\.com\/laoma2053\/awesome-zhuiju-free\/actions\/workflows\/check-availability\.yml\)|<p align="center">\r?\n  <a href="https:\/\/zhuiju\.me"><img src="https:\/\/img\.shields\.io\/badge\/网站-zhuiju\.me-2563eb\?style=for-the-badge" alt="网站 zhuiju\.me"(?: height="\d+")?><\/a>\r?\n  <!-- resource-count:start -->[\s\S]*?<!-- resource-count:end -->\r?\n  <a href="https:\/\/github\.com\/laoma2053\/awesome-zhuiju-free\/actions\/workflows\/check-availability\.yml"><img src="https:\/\/img\.shields\.io\/badge\/可用性检测-每日执行-f59e0b\?style=for-the-badge" alt="可用性检测 每日执行"(?: height="\d+")?><\/a>\r?\n(?:  <a href="https:\/\/github\.com\/laoma2053\/awesome-zhuiju-free\/stargazers"><img src="https:\/\/img\.shields\.io\/github\/stars\/laoma2053\/awesome-zhuiju-free\?style=for-the-badge&color=yellow" alt="GitHub Stars"(?: height="\d+")?><\/a>\r?\n)?(?:  <a href="https:\/\/deepwiki\.com\/laoma2053\/awesome-zhuiju-free"><img src="https:\/\/deepwiki\.com\/badge\.svg" alt="Ask DeepWiki"(?: height="\d+")?><\/a>\r?\n)?<\/p>)/;
+  /<p align="center">\r?\n  <a href="https:\/\/zhuiju\.me">[\s\S]*?<\/p>/;
 const headerBadges = `<p align="center">
-  <a href="https://zhuiju.me"><img src="https://img.shields.io/badge/网站-zhuiju.me-2563eb?style=for-the-badge" alt="网站 zhuiju.me" height="20"></a>
+  <a href="https://zhuiju.me"><img src="https://img.shields.io/badge/网站-zhuiju.me-0A66C2?style=flat-square&logo=googlechrome&logoColor=white" alt="网站 zhuiju.me" height="24"></a>
   ${countBadge}
-  <a href="https://github.com/laoma2053/awesome-zhuiju-free/actions/workflows/check-availability.yml"><img src="https://img.shields.io/badge/可用性检测-每日执行-f59e0b?style=for-the-badge" alt="可用性检测 每日执行" height="20"></a>
-  <a href="https://github.com/laoma2053/awesome-zhuiju-free/stargazers"><img src="https://img.shields.io/github/stars/laoma2053/awesome-zhuiju-free?style=for-the-badge&color=yellow" alt="GitHub Stars" height="20"></a>
-  <a href="https://deepwiki.com/laoma2053/awesome-zhuiju-free"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki" height="20"></a>
+  <a href="https://github.com/laoma2053/awesome-zhuiju-free/actions/workflows/check-availability.yml"><img src="https://img.shields.io/badge/检测时间-${badgePathDate(availabilityDate)}-00B4D8?style=flat-square&logo=githubactions&logoColor=white" alt="检测时间 ${availabilityDate}" height="24"></a>
+  <a href="https://github.com/laoma2053/awesome-zhuiju-free/stargazers"><img src="https://img.shields.io/github/stars/laoma2053/awesome-zhuiju-free?style=flat-square&label=Star&color=F7B801&logo=github&logoColor=white" alt="GitHub Stars" height="24"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/许可证-MIT%2FCC_BY_4.0-6F42C1?style=flat-square&logo=creativecommons&logoColor=white" alt="许可证 MIT/CC BY 4.0" height="24"></a>
+  <a href="https://deepwiki.com/laoma2053/awesome-zhuiju-free"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki" height="24"></a>
 </p>`;
 
 if (!headerBadgesPattern.test(updatedReadme)) {
